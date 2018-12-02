@@ -2,7 +2,7 @@
  * Windows: Please do not use trailing comma as windows will fail with token error
  */
 
-const { series, rimraf, } = require('nps-utils');
+const { series, rimraf } = require('nps-utils');
 
 module.exports = {
     scripts: {
