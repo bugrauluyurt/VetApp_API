@@ -16,7 +16,7 @@ export class Pet {
     public name: string;
 
     @Field(type => Int, {
-        description: 'The age of the pet in years.',
+        description: 'The age of the pet in months.',
     })
     public age: number;
 

@@ -11,6 +11,6 @@ define(Pet, (faker: typeof Faker) => {
     const pet = new Pet();
     pet.id = uuid.v1();
     pet.name = name;
-    pet.age = faker.random.number();
+    pet.age = faker.random.number({ min: 0, max: 120 });
     return pet;
 });
